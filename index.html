@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11111b">
+  <meta name="description" content="Una colección de videojuegos creados por el alumnado de Programación y Computación.">
+  <title>Arcade de clase — Programación y Computación</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Arcade de clase, inicio">
+        <span class="brand-mark" aria-hidden="true">✳</span>
+        <span>ARCADE<span class="brand-light">DE CLASE</span></span>
+      </a>
+      <a class="header-link" href="#juegos">Explorar juegos <span aria-hidden="true">↘</span></a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="live-dot"></span> PROGRAMACIÓN Y COMPUTACIÓN</p>
+          <h1 id="hero-title">Ideas que<br>se vuelven <span class="highlight">juego.</span></h1>
+          <p class="hero-description">Un escaparate de videojuegos hechos por el alumnado de <strong>Programación y Computación</strong>. Elige uno, dale a jugar y descubre lo que han creado.</p>
+          <a class="primary-link" href="#juegos">Ver los proyectos <span aria-hidden="true">↓</span></a>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-glow"></div>
+          <div class="spark spark-one">✦</div>
+          <div class="spark spark-two">✳</div>
+          <div class="arcade-screen">
+            <div class="screen-top"><span></span><span></span><span></span><b>INSERT COIN</b></div>
+            <div class="pixel-scene">
+              <span class="pixel-star star-a">✦</span>
+              <span class="pixel-star star-b">·</span>
+              <span class="pixel-star star-c">✧</span>
+              <div class="pixel-sun"></div>
+              <div class="pixel-platform"></div>
+              <div class="pixel-player"><i></i><i></i></div>
+            </div>
+            <div class="screen-bottom"><span>PLAYER 1</span><span>★ <b>001</b></span></div>
+          </div>
+          <div class="art-caption"><span class="caption-line"></span> HECHO EN CLASE, LISTO PARA JUGAR</div>
+        </div>
+        <div class="hero-index" aria-hidden="true">PYC <span>/</span> ARCADE</div>
+      </section>
+
+      <section class="projects-section" id="juegos" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow section-eyebrow">LA COLECCIÓN</p>
+            <h2 id="projects-title">Elige tu partida<span class="heading-period">.</span></h2>
+          </div>
+          <p class="project-count"><span id="project-count">0</span> JUEGOS DISPONIBLES</p>
+        </div>
+        <div class="project-grid" id="project-grid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#" aria-label="Volver al inicio">
+        <span class="brand-mark" aria-hidden="true">✳</span>
+        <span>ARCADE<span class="brand-light">DE CLASE</span></span>
+      </a>
+      <p>Creado con código, ideas y muchas ganas de jugar.</p>
+      <a class="back-top" href="#" aria-label="Volver arriba">↑</a>
+    </footer>
+  </div>
+</body>
+</html>
