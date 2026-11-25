@@ -4,6 +4,12 @@ const projects = [
     title: "Movimiento izquierda y derecha",
     student: "Alejandro Muñoz",
     icon: "✦"
+  },
+  {
+    folder: "german-arcos",
+    title: "El mago del desierto",
+    student: "Germán Arcos",
+    icon: "✧"
   }
 ];
 
